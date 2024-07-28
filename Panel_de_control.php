@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'conexion.php';
+include 'Conexion.php';
 if (!isset($_SESSION['user_id'])) {
     header("Location: index.html");
     exit();
