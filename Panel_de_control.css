@@ -1,18 +1,12 @@
-.sidebar {
-    
-}
-
 .user-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .user-info h2 {
     margin: 0;
     font-size: 24px;
 }
-
 .logout-btn {
     display: inline-flex;
     align-items: center;
@@ -27,11 +21,9 @@
     transition: background-color 0.3s ease;
     margin-left: 20px;
 }
-
 .logout-btn:hover {
     background-color: #c82333;
 }
-
 .logout-btn i {
     margin-right: 8px;
 }
